@@ -1,0 +1,35 @@
+.navmen{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size:19px;
+    border-bottom: 2px solid #2196ef;
+
+}
+ a {
+    text-decoration: none;
+    color :black;
+
+}
+.listee:hover{
+    color:#2196ef;
+}
+.nn:hover .list{
+    display:block;
+}
+.list{
+    display:none;
+    list-style:  none;
+    position: absolute;
+    /* padding-left:0;  */
+    text-align: left;
+    width :200px;
+    border:2px solid #2196F7;
+    padding: 0;
+    }
+  div{
+      width:500px;
+  }
+  .nn{
+position:relative;
+  }
